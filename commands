@@ -16,3 +16,5 @@ git checkout --<filename>  : restore the file from Git repository into local sto
 sed 's/<originaltext>/<newtext>/g' -i <filename> : replace the text in file
 git revert <4 characters of the Git commit id>  : revert the commit to the previous state
 git reset --hard <4 characters of the Git commit id> : reset the Git repository to its previous state, keep the commit actions before the Git commit id
+vim .gitignore : open vim to write list of files to ignore
+git checkout --. : close all unstaged changes
