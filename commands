@@ -1,0 +1,13 @@
+ls : list all files
+ls -a : list all the hidden files
+clear : clear the bash
+
+git status : show status of current directory
+git init : initialise Git repository
+git config --global user.name "username" : set the username for Git repository
+git config --global user.email "emailaddress" : set the e-mail address for the user
+git add <filename> : add the file to Git repository
+git commit -m "message" : commit the Git action with message
+git log : show the log of Git actions
+git show <4 first character of Git commit id> : show the log of the commit id and its contents differences made by the user
+git diff : show the differences between local and Git repository
