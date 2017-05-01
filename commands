@@ -6,8 +6,13 @@ git status : show status of current directory
 git init : initialise Git repository
 git config --global user.name "username" : set the username for Git repository
 git config --global user.email "emailaddress" : set the e-mail address for the user
-git add <filename> : add the file to Git repository
+git add <filename>: add the file to Git repository
 git commit -m "message" : commit the Git action with message
 git log : show the log of Git actions
-git show <4 first character of Git commit id> : show the log of the commit id and its contents differences made by the user
+git log -1 : show the last committed action
+git show <4 characters of the Git commit id> : show the log of the commit id and its contents differences made by the user
 git diff : show the differences between local and Git repository
+git checkout --<filename>  : restore the file from Git repository into local storage
+sed 's/<originaltext>/<newtext>/g' -i <filename> : replace the text in file
+git revert <4 characters of the Git commit id>  : revert the commit to the previous state
+git reset --hard <4 characters of the Git commit id> : reset the Git repository to its previous state, keep the commit actions before the Git commit id
