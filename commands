@@ -1,20 +1,108 @@
-ls : list all files
-ls -a : list all the hidden files
-clear : clear the bash
+:q -> quit
+:q! -> force to quit
+:w -> write
+:wq -> write and quit
 
-git status : show status of current directory
-git init : initialise Git repository
-git config --global user.name "username" : set the username for Git repository
-git config --global user.email "emailaddress" : set the e-mail address for the user
-git add <filename>: add the file to Git repository
-git commit -m "message" : commit the Git action with message
-git log : show the log of Git actions
-git log -1 : show the last committed action
-git show <4 characters of the Git commit id> : show the log of the commit id and its contents differences made by the user
-git diff : show the differences between local and Git repository
-git checkout --<filename>  : restore the file from Git repository into local storage
-sed 's/<originaltext>/<newtext>/g' -i <filename> : replace the text in file
-git revert <4 characters of the Git commit id>  : revert the commit to the previous state
-git reset --hard <4 characters of the Git commit id> : reset the Git repository to its previous state, keep the commit actions before the Git commit id
-vim .gitignore : open vim to write list of files to ignore
-git checkout --. : close all unstaged changes
+h -> move cursor left
+j -> move cursor down
+k -> move cursor up
+l -> move cursor right
+
+i -> insert before letter
+I -> insert beginning line
+a -> append after letter
+A -> append after tine
+O -> open a new line before the current line
+o -> open a new line after current line
+r -> replace single character
+R -> replace all following characters until we tell it to stop
+w -> skip to next word
+W -> skip to next WORD (not worrying about symbols)
+e -> move to the next end of a word
+E -> navigates to the next end of a word (not worrying about symbols)
+c -> change whatever we specify (using a modifier)
+C -> change to the end of line
+h -> move to the character before
+j -> select the entire line
+
+x -> delete a single character at the cursor
+X -> delete a single character before the cursor
+d -> delete what we specify (using a modifier) (and cuts it)
+D -> delete until the end of a line. (and cuts it)
+
+y -> yanks whatever we specify (using a modifier)
+Y -> yanks the entire current line
+p -> pastes from the vim buffer after the current cursor position
+P -> pastes from the vim buffer before the current cursor position
+
+b -> move backword
+B -> move backword (not worrying about symbols)
+
+G -> move to the last line
+gg -> move to the top line
+
+/ -> search forward
+? -> search backward
+-> submit search query
+n -> next search result
+N -> previous search result
+:%s -> search entire file
+:nohlsearch -> remove highlight from search
+
+ctrl + w -> move to certain window
+:qa -> quit all files
+:wa -> write all files
+
+:tabnew -> open new tab
+:tabp -> tab previous
+:tabn -> tab next
+:tabclose -> tab close
+
+% -> jumpto matching bracket
+> -> indent
+< -> de-indent
+= -> properly indent
+
+u -> undo
+~ -> change case of character
+
+dd -> delete entire line
+
+:set nu -> show line numbers
+:set rnu -> show relative line numbers
+:nu -> show what is within that line number
+
+:set autoindent -> automatically indent
+:set noerrorbells -> disable bells
+:set showmode -> show the working mode
+:set colorcolumn=X -> draw a column | X is number
+:set ruler -> show position info
+:set nohlsearch -> no highlight search
+:set bg=dark/light -> change foreground
+:set tabstop=X -> set tab spaces | X is number
+:colors  <themename> -> set a theme
+
+:e -> edit file
+:e $myvimrc -> load vimrc file
+
+:tabedit <filename> -> open new tab for the file
+:vsp <filename> -> vertical split the window for the file
+:sp <filename> -> horizontal split the window for the file
+
+ctrl-w T -> open the current tab with its own window
+
+:tabclose -> close the current tab
+:tabonly -> close all tabs except the current active tab
+
+gt -> switch between tabs
+gT -> switch to the last tab
+<number>gt -> switch to the specified number tab
+:tabmore<number>  -> reorder the tab window position
+
+ctrl-w s -> split window horizontally
+ctrl-w v -> split window vertically
+ctrl-w = -> split windows equally
+ctrl-w h -> move to the left tab
+ctrl-w j -> move to the below tab
+ctrl-w k -> move to the upper tab
+ctrl-w l -> move to the right tab
