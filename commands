@@ -15,6 +15,17 @@ git diff : show the differences between local and Git repository
 git checkout --<filename>  : restore the file from Git repository into local storage
 sed 's/<originaltext>/<newtext>/g' -i <filename> : replace the text in file
 git revert <4 characters of the Git commit id>  : revert the commit to the previous state
-git reset --hard <4 characters of the Git commit id> : reset the Git repository to its previous state, keep the commit actions before the Git commit id
+git reset --hard <4 characters of the Git commit id> : reset the Git repository to its previous state, 
+keep the commit actions before the Git commit id
+
 vim .gitignore : open vim to write list of files to ignore
 git checkout --. : close all unstaged changes
+
+git remote add origin  : sets the new remote
+git remote -v : verifies the new remote URL
+
+git push origin master : pushes the changes in local repository up to the remote repository
+git push -f origin master : force it to push the changes in local repository up to the remote repository
+
+GitHub reference for uploading local drive files into GitHub repository : 
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
