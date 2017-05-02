@@ -29,3 +29,10 @@ git push -f origin master : force it to push the changes in local repository up 
 
 GitHub reference for uploading local drive files into GitHub repository : 
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+GitHub reference for uploading local drive files into GitHub repository : https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+"Before a git push origin master you should do a git pull origin master to ensure you have the latest updates from the server."
+
+git pull origin master
+git push origin master
