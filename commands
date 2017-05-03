@@ -21,7 +21,7 @@ keep the commit actions before the Git commit id
 vim .gitignore : open vim to write list of files to ignore
 git checkout --. : close all unstaged changes
 
-git remote add origin  : sets the new remote
+git remote add origin <remoterepositoryURL> : sets the new remoterepositoryURL
 git remote -v : verifies the new remote URL
 
 git push origin master : pushes the changes in local repository up to the remote repository
