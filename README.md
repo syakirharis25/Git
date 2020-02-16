@@ -4,7 +4,8 @@ Everything about Git and practices.
 ## Table of Contents
 1. [Introduction.](#introduction)
 2. [Official references websites.](#references)
-3. [GitHub notes.](#github)
+3. [Git Large File Storage (LFS).](#LFS)
+4. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -24,8 +25,16 @@ Configuring Git Large File Storage by GitHub : https://help.github.com/en/github
 
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
 
+<a name="LFS"></a>
+## 3. Git Large File Storage (LFS).
+Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.
+<br /><br />
+"git large file storage" or git-lfs is a tool that helps with tracking large files inside a git repository while the file content is stored outside of git. The need for such functionality is necessitated by limitations in git performance which degrades as the size of the repository grows beyond a few megabytes. When storing files that are several hundred megabytes in size, git becomes prohibitively slow. git-lfs provides one method of addressing this problem.
+
+To work with projects that use git-lfs, you need to download and install the git-lfs client on your workstation. The client can be downloaded from https://git-lfs.github.com, simply follow the instructions under "Getting Started" on the git-lfs site.
+
 <a name="github"></a>
-## 3. GitHub notes.
+## 4. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Git.git
