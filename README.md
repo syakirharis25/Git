@@ -4,7 +4,7 @@ Everything about Git and practices.
 ## Table of Contents
 1. [Introduction.](#introduction)
 2. [Official references websites.](#references)
-6. [GitHub notes.](#github)
+3. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -17,11 +17,12 @@ Git was created by Linus Torvalds in 2005 for development of the Linux kernel, w
 ## 2. Official references websites. <br />
 Git official website : https://git-scm.com <br />
 GitHub official website : https://github.com <br />
+Git Large File Storage (LFS) : https://git-lfs.github.com <br />
 
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
 
 <a name="github"></a>
-## 4. GitHub notes.
+## 3. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Git.git
