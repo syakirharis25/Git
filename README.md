@@ -29,6 +29,9 @@ Configuring Git Large File Storage by GitHub : https://help.github.com/en/github
 How To Run Your Own Git Server by Swapnil Bhartiya : https://www.linux.com/tutorials/how-run-your-own-git-server/ <br />
 fallocate - preallocate or deallocate space to a file : http://man7.org/linux/man-pages/man1/fallocate.1.html <br />
 
+**_Git projects_**
+VFS for Git : https://github.com/microsoft/VFSForGit<br />
+
 **_Git developers_**
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
 Lars Schneider of GitHub : https://github.com/larsxschneider <br />
