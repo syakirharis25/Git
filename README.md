@@ -5,7 +5,8 @@ Everything about Git and practices.
 1. [Introduction.](#introduction)
 2. [Official references websites.](#references)
 3. [Git Large File Storage (LFS).](#LFS)
-4. [GitHub notes.](#github)
+4. [Check Git file size.](#gitsize)
+5. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -40,8 +41,15 @@ Git Large File Storage (LFS) replaces large files such as audio samples, videos,
 
 To work with projects that use git-lfs, you need to download and install the git-lfs client on your workstation. The client can be downloaded from https://git-lfs.github.com, simply follow the instructions under "Getting Started" on the git-lfs site.
 
+<a name="gitsize"></a>
+## 4. Check Git file size.
+To check Git file size do the following commands.
+```
+du -sh .git/
+```
+
 <a name="github"></a>
-## 4. GitHub notes.
+## 5. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Git.git
