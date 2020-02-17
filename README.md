@@ -53,6 +53,17 @@ To check Git file size do the following commands.
 du -sh .git/
 ```
 
+It will then show the message.
+```
+Updated git hooks.
+Git LFS initialized.
+```
+
+To see what is inside git hooks, do this commands
+```
+$ ls -latr .git/hooks/
+```
+
 <a name="github"></a>
 ## 5. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
