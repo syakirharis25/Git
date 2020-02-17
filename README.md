@@ -26,6 +26,7 @@ Configuring Git Large File Storage by GitHub : https://help.github.com/en/github
 
 **_Git related articles_**
 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories : https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/ <br />
+How To Run Your Own Git Server by Swapnil Bhartiya : https://www.linux.com/tutorials/how-run-your-own-git-server/ <br />
 
 **_Git developers_**
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
