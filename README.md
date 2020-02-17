@@ -41,6 +41,11 @@ Git Large File Storage (LFS) replaces large files such as audio samples, videos,
 
 To work with projects that use git-lfs, you need to download and install the git-lfs client on your workstation. The client can be downloaded from https://git-lfs.github.com, simply follow the instructions under "Getting Started" on the git-lfs site.
 
+To install git-lfs on Git Bash, simply do this command.
+```
+$ git lfs install
+```
+
 <a name="gitsize"></a>
 ## 4. Check Git file size.
 To check Git file size do the following commands.
