@@ -31,6 +31,7 @@ fallocate - preallocate or deallocate space to a file : http://man7.org/linux/ma
 
 **_Git projects_**
 VFS for Git : https://github.com/microsoft/VFSForGit<br />
+Enterprise Config for Git : https://github.com/Autodesk/enterprise-config-for-git <br />
 
 **_Git developers_**
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
