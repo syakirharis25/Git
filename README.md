@@ -5,8 +5,9 @@ Everything about Git and practices.
 1. [Introduction.](#introduction)
 2. [Official references websites.](#references)
 3. [Git Large File Storage (LFS).](#LFS)
-4. [Check Git file size.](#gitsize)
-5. [GitHub notes.](#github)
+4. [Copy from browser and paste in Git Bash keyboard shortcut.](#copypaste)
+5. [Check Git file size.](#gitsize)
+6. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -40,6 +41,11 @@ Git was created by Linus Torvalds : https://github.com/torvalds <br />
 Lars Schneider of GitHub : https://github.com/larsxschneider <br />
 Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
 Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
+
+<a name="copypaste"></a>
+## 4. Copy from browser and paste in Git Bash keyboard shortcut.
+To copy from browser, press **[ Ctrl ]** + **[ C ]** on your keyboard.
+To paste into Git Bash, press **[ Shift ]** + **[ Insert ]** on your keyboard.
 
 <a name="LFS"></a>
 ## 3. Git Large File Storage (LFS).
