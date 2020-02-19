@@ -23,6 +23,8 @@ Git official website : https://git-scm.com <br />
 GitHub official website : https://github.com <br />
 Git Large File Storage (LFS) : https://git-lfs.github.com <br />
 
+GitHub official status on twitter : https://twitter.com/githubstatus <br />
+
 **_Git documentation_**
 Configuring Git Large File Storage by GitHub : https://help.github.com/en/github/managing-large-files/configuring-git-large-file-storage <br />
 REST API v3 by GitHub : https://developer.github.com/v3/ <br />
