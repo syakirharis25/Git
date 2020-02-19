@@ -8,6 +8,7 @@ Everything about Git and practices.
 4. [Copy from browser and paste in Git Bash keyboard shortcut.](#copypaste)
 5. [Check Git file size.](#gitsize)
 6. [GitHub notes.](#github)
+7. [GitHub repository calculation.](#calculation)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -42,11 +43,6 @@ Lars Schneider of GitHub : https://github.com/larsxschneider <br />
 Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
 Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
 
-<a name="copypaste"></a>
-## 4. Copy from browser and paste in Git Bash keyboard shortcut.
-To copy from browser, press **[ Ctrl ]** + **[ C ]** on your keyboard.
-To paste into Git Bash, press **[ Shift ]** + **[ Insert ]** on your keyboard.
-
 <a name="LFS"></a>
 ## 3. Git Large File Storage (LFS).
 Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.
@@ -60,8 +56,13 @@ To install git-lfs on Git Bash, simply do this command.
 $ git lfs install
 ```
 
+<a name="copypaste"></a>
+## 4. Copy from browser and paste in Git Bash keyboard shortcut.
+To copy from browser, press **[ Ctrl ]** + **[ C ]** on your keyboard.
+To paste into Git Bash, press **[ Shift ]** + **[ Insert ]** on your keyboard.
+
 <a name="gitsize"></a>
-## 4. Check Git file size.
+## 5. Check Git file size.
 To check Git file size do the following commands.
 ```
 du -sh .git/
@@ -79,7 +80,7 @@ $ ls -latr .git/hooks/
 ```
 
 <a name="github"></a>
-## 5. GitHub notes.
+## 6. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Git.git
@@ -89,3 +90,14 @@ $ git status
 ```
 
 GitHub markdown-cheatsheet by tchap : https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+
+<a name="calculation"></a>
+## 7. GitHub repository calculation.
+```
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Markdown                         1              0              0              2
+-------------------------------------------------------------------------------
+```
+Refer to : https://github.com/syakirharis25/cloc
