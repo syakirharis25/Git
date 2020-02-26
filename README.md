@@ -23,6 +23,10 @@ Git official website : https://git-scm.com <br />
 GitHub official website : https://github.com <br />
 Git Large File Storage (LFS) : https://git-lfs.github.com <br />
 
+**_Git questions and answers_**
+Stack Overflow questions and answers website : https://stackoverflow.com <br />
+
+**_Git by GitHub_**
 GitHub official status on twitter : https://twitter.com/githubstatus <br />
 
 **_Git documentation_**
@@ -30,11 +34,14 @@ Configuring Git Large File Storage by GitHub : https://help.github.com/en/github
 REST API v3 by GitHub : https://developer.github.com/v3/ <br />
 Changing a commit message by GitHub : https://help.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message <br />
 
+**_Git questions and answers by Stack Overflow_**
+Git refusing to merge unrelated histories on rebase by Stack Overflow : https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase <br />
+How do you copy and paste into Git Bash by Stack Overflow : https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash <br />
+
 **_Git related articles_**
 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories : https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/ <br />
 How To Run Your Own Git Server by Swapnil Bhartiya : https://www.linux.com/tutorials/how-run-your-own-git-server/ <br />
 fallocate - preallocate or deallocate space to a file : http://man7.org/linux/man-pages/man1/fallocate.1.html <br />
-How do you copy and paste into Git Bash : https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash <br />
 Changing a remote's URL by GitHub : https://help.github.com/en/github/using-git/changing-a-remotes-url <br />
 
 **_Git projects_**
