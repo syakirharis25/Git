@@ -35,6 +35,7 @@ Changing a commit message by GitHub : https://help.github.com/en/github/committi
 How To Run Your Own Git Server by Swapnil Bhartiya : https://www.linux.com/tutorials/how-run-your-own-git-server/ <br />
 fallocate - preallocate or deallocate space to a file : http://man7.org/linux/man-pages/man1/fallocate.1.html <br />
 How do you copy and paste into Git Bash : https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash <br />
+Changing a remote's URL by GitHub : https://help.github.com/en/github/using-git/changing-a-remotes-url <br />
 
 **_Git projects_**
 VFS for Git : https://github.com/microsoft/VFSForGit<br />
