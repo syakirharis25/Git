@@ -13,7 +13,7 @@ Everything about Git and practices.
 <a name="introduction"></a>
 ## 1. Introduction.
 <img src="git.png" height="150"> 
-Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed,[9] data integrity, and support for distributed, non-linear workflows.
+Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 <br /><br />
 Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano. As with most other distributed version-control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version-tracking abilities, independent of network access or a central server. Git is free and open-source software distributed under the terms of the GNU General Public License version 2.
 
@@ -37,6 +37,7 @@ Changing a commit message by GitHub : https://help.github.com/en/github/committi
 **_Git questions and answers by Stack Overflow_** <br />
 Git refusing to merge unrelated histories on rebase by Stack Overflow : https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase <br />
 How do you copy and paste into Git Bash by Stack Overflow : https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash <br />
+Why does git say “Pull is not possible because you have unmerged files”? by Stack Overflow : https://stackoverflow.com/questions/26376832/why-does-git-say-pull-is-not-possible-because-you-have-unmerged-files <br />
 
 **_Git related articles_** <br />
 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories : https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/ <br />
