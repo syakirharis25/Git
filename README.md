@@ -7,8 +7,9 @@ Everything about Git and practices.
 3. [Git Large File Storage (LFS).](#LFS)
 4. [Copy from browser and paste in Git Bash keyboard shortcut.](#copypaste)
 5. [Check Git file size.](#gitsize)
-6. [GitHub notes.](#github)
-7. [GitHub repository calculation.](#calculation)
+6. [Git developers.](#developers)
+7. [GitHub notes.](#github)
+8. [GitHub repository calculation.](#calculation)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -49,12 +50,6 @@ Changing a remote's URL by GitHub : https://help.github.com/en/github/using-git/
 VFS for Git : https://github.com/microsoft/VFSForGit<br />
 Enterprise Config for Git : https://github.com/Autodesk/enterprise-config-for-git <br />
 
-**_Git developers_** <br />
-Git was created by Linus Torvalds : https://github.com/torvalds <br />
-Lars Schneider of GitHub : https://github.com/larsxschneider <br />
-Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
-Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
-
 <a name="LFS"></a>
 ## 3. Git Large File Storage (LFS).
 Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.
@@ -91,8 +86,15 @@ To see what is inside git hooks, do this commands
 $ ls -latr .git/hooks/
 ```
 
+<a name="developers"></a>
+## 6. Git developers.
+Git was created by Linus Torvalds : https://github.com/torvalds <br />
+Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
+Lars Schneider of GitHub : https://github.com/larsxschneider <br />
+Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
+
 <a name="github"></a>
-## 6. GitHub notes.
+## 7. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Git.git
@@ -104,7 +106,7 @@ $ git status
 GitHub markdown-cheatsheet by tchap : https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
 
 <a name="calculation"></a>
-## 7. GitHub repository calculation.
+## 8. GitHub repository calculation.
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
