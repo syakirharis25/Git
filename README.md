@@ -5,11 +5,12 @@ Everything about Git and practices.
 1. [Introduction.](#introduction)
 2. [Official references websites.](#references)
 3. [Git Large File Storage (LFS).](#LFS)
-4. [Copy from browser and paste in Git Bash keyboard shortcut.](#copypaste)
-5. [Check Git file size.](#gitsize)
-6. [Git developers.](#developers)
-7. [GitHub notes.](#github)
-8. [GitHub repository calculation.](#calculation)
+4. [Using git command in Command Prompt.](#git) 
+5. [Copy from browser and paste in Git Bash keyboard shortcut.](#copypaste)
+6. [Check Git file size.](#gitsize)
+7. [Git developers.](#developers)
+8. [GitHub notes.](#github)
+9. [GitHub repository calculation.](#calculation)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -66,14 +67,22 @@ To install git-lfs on Git Bash, simply do this command.
 ```
 $ git lfs install
 ```
+<a name="introduction"></a>
+## 4. Using git command in Command Prompt.
+To use code command in Command Prompt, you need to add `C:\Program Files\Git\bin\` and `C:\Program Files\Git\cmd\` into the windows environment PATH, follow this instructions. On the right hand side of **[ ⊞ ]**, type `edit environment` and then **[ Mouse Left Click ]** the shown text `edit environment variables for your account`, **Environment Variables** menu will appear, press **[ P ]**, make sure the `Path` is highlighted on the screen, then press **[ Tab ]**, **[ E ]**,**[ Tab ]**, **[ N ]**, and then type `C:\Program Files\Git\bin\`, then press **[ Enter ]**,**[ Tab ]**, **[ N ]**, **[ Enter ]**,and then type `C:\Program Files\Git\cmd\` **[ Enter ]**, **[ Enter ]**, **[ Enter ]**,**[ Tab ]**,**[ Tab ]**,**[ Tab ]**,**[ Enter ]**.
+
+Press **[ ⊞ ]** + **[ R ]**, then press **[ C ]**, **[ M ]**, **[ D ]**, **[ Ctrl ]** + **[ Shift ]** + **[ Enter ]**, **[ ← ]**, **[ Enter ]**. Then type this commands to test whether git is running or not on the Command Prompt.
+```
+> git --version
+```
 
 <a name="copypaste"></a>
-## 4. Copy from browser and paste in Git Bash keyboard shortcut.
+## 5. Copy from browser and paste in Git Bash keyboard shortcut.
 To copy from browser, press **[ Ctrl ]** + **[ C ]** on your keyboard.
 To paste into Git Bash, press **[ Shift ]** + **[ Insert ]** on your keyboard.
 
 <a name="gitsize"></a>
-## 5. Check Git file size.
+## 6. Check Git file size.
 To check Git file size do the following commands.
 ```
 du -sh .git/
@@ -91,14 +100,14 @@ $ ls -latr .git/hooks/
 ```
 
 <a name="developers"></a>
-## 6. Git developers.
+## 7. Git developers.
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
 Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
 Lars Schneider of GitHub : https://github.com/larsxschneider <br />
 Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
 
 <a name="github"></a>
-## 7. GitHub notes.
+## 8. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Git.git
@@ -110,7 +119,7 @@ $ git status
 GitHub markdown-cheatsheet by tchap : https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
 
 <a name="calculation"></a>
-## 8. GitHub repository calculation.
+## 9. GitHub repository calculation.
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
