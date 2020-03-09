@@ -22,7 +22,10 @@ Git was created by Linus Torvalds in 2005 for development of the Linux kernel, w
 ## 2. Official references websites. <br />
 Git official website : https://git-scm.com <br />
 GitHub official website : https://github.com <br />
+
+**_Git related technologies_** <br />
 Git Large File Storage (LFS) : https://git-lfs.github.com <br />
+Git for Windows : https://gitforwindows.org <br />
 
 **_Git questions and answers_** <br />
 Stack Overflow questions and answers website : https://stackoverflow.com <br />
@@ -39,6 +42,7 @@ Changing a commit message by GitHub : https://help.github.com/en/github/committi
 Git refusing to merge unrelated histories on rebase by Stack Overflow : https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase <br />
 How do you copy and paste into Git Bash by Stack Overflow : https://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash <br />
 Why does git say “Pull is not possible because you have unmerged files”? by Stack Overflow : https://stackoverflow.com/questions/26376832/why-does-git-say-pull-is-not-possible-because-you-have-unmerged-files <br />
+'git' is not recognized as an internal or external command by STack Overflow : https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command <br />
 
 **_Git related articles_** <br />
 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories : https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/ <br />
