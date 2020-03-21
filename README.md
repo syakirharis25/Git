@@ -8,9 +8,10 @@ Everything about Git and practices.
 4. [Using git command in Command Prompt.](#git) 
 5. [Copy from browser and paste in Git Bash keyboard shortcut.](#copypaste)
 6. [Check Git file size.](#gitsize)
-7. [Git developers.](#developers)
-8. [GitHub notes.](#github)
-9. [GitHub repository calculation.](#calculation)
+7. [Git reference error.](#gitreference)
+8. [Git developers.](#developers)
+9. [GitHub notes.](#github)
+10. [GitHub repository calculation.](#calculation)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -101,15 +102,30 @@ To see what is inside git hooks, do this commands
 $ ls -latr .git/hooks/
 ```
 
+<a name="gitreference"></a>
+## 7. Git reference error.
+If there is a message shown on the screen saying that,
+```
+error: cannot lock ref 'refs/remotes/origin/master': unable to resolve reference 'refs/remotes/origin/master': reference broken
+ ! [new branch]      master     -> origin/master  (unable to update local ref)
+```
+
+Then you must remove the broken reference, fetch back the Git reference address, and test again to pull the contents from GitHub repository to see whether it works or not.
+```
+$ rm .git/refs/remotes/origin/master
+$ git fetch --prune
+$ git pull origin master
+```
+
 <a name="developers"></a>
-## 7. Git developers.
+## 8. Git developers.
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
 Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
 Lars Schneider of GitHub : https://github.com/larsxschneider <br />
 Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
 
 <a name="github"></a>
-## 8. GitHub notes.
+## 9. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Git.git
@@ -121,7 +137,7 @@ $ git status
 GitHub markdown-cheatsheet by tchap : https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
 
 <a name="calculation"></a>
-## 9. GitHub repository calculation.
+## 10. GitHub repository calculation.
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
