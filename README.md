@@ -47,12 +47,14 @@ Why does git say “Pull is not possible because you have unmerged files”? by 
 'git' is not recognized as an internal or external command by Stack Overflow : https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command <br />
 git pull fails “unable to resolve reference” “unable to update local ref” by Stack Overflow : https://stackoverflow.com/questions/2998832/git-pull-fails-unable-to-resolve-reference-unable-to-update-local-ref <br />
 Git unable to resolve references when pushing by Stack Overflow : https://stackoverflow.com/questions/23749886/git-unable-to-resolve-references-when-pushing/23847239 <br />
+How to fix: error: '<filename>' does not have a commit checked out fatal: adding files failed when inputting “git add .” in command prompt by Stack Overflow : https://stackoverflow.com/questions/56873278/how-to-fix-error-filename-does-not-have-a-commit-checked-out-fatal-adding <br />
 
 **_Git related articles_** <br />
 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories : https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/ <br />
 How To Run Your Own Git Server by Swapnil Bhartiya : https://www.linux.com/tutorials/how-run-your-own-git-server/ <br />
 fallocate - preallocate or deallocate space to a file : http://man7.org/linux/man-pages/man1/fallocate.1.html <br />
 Changing a remote's URL by GitHub : https://help.github.com/en/github/using-git/changing-a-remotes-url <br />
+How to delete multiples files in Github by GitHub Community Forum : https://github.community/t5/How-to-use-Git-and-GitHub/How-to-delete-multiples-files-in-Github/td-p/4623 <br />
 
 **_Git projects_** <br />
 VFS for Git : https://github.com/microsoft/VFSForGit<br />
