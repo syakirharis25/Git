@@ -25,6 +25,7 @@ Git was created by Linus Torvalds in 2005 for development of the Linux kernel, w
 ## 2. Official references websites. <br />
 Git official website : https://git-scm.com <br />
 GitHub official website : https://github.com <br />
+GitHub Support official website : https://support.github.com <br />
 
 **_Git related technologies_** <br />
 Git Large File Storage (LFS) : https://git-lfs.github.com <br />
