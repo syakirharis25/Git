@@ -50,6 +50,7 @@ Why does git say “Pull is not possible because you have unmerged files”? by 
 git pull fails “unable to resolve reference” “unable to update local ref” by Stack Overflow : https://stackoverflow.com/questions/2998832/git-pull-fails-unable-to-resolve-reference-unable-to-update-local-ref <br />
 Git unable to resolve references when pushing by Stack Overflow : https://stackoverflow.com/questions/23749886/git-unable-to-resolve-references-when-pushing/23847239 <br />
 How to fix: error: '<filename>' does not have a commit checked out fatal: adding files failed when inputting “git add .” in command prompt by Stack Overflow : https://stackoverflow.com/questions/56873278/how-to-fix-error-filename-does-not-have-a-commit-checked-out-fatal-adding <br />
+Git : Merging Issues with Git by Stack Overflow : https://stackoverflow.com/questions/11527069/git-merging-issues-with-git/22990740<br />
 
 **_Git related articles_** <br />
 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories : https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/ <br />
