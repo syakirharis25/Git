@@ -58,6 +58,7 @@ How To Run Your Own Git Server by Swapnil Bhartiya : https://www.linux.com/tutor
 fallocate - preallocate or deallocate space to a file : http://man7.org/linux/man-pages/man1/fallocate.1.html <br />
 Changing a remote's URL by GitHub : https://help.github.com/en/github/using-git/changing-a-remotes-url <br />
 How to delete multiples files in Github by GitHub Community Forum : https://github.community/t5/How-to-use-Git-and-GitHub/How-to-delete-multiples-files-in-Github/td-p/4623 <br />
+How to Push an Existing Project to GitHub by Nicholas Cerminara : https://scotch.io/tutorials/how-to-push-an-existing-project-to-github <br />
 
 **_Git projects_** <br />
 VFS for Git : https://github.com/microsoft/VFSForGit<br />
@@ -143,6 +144,7 @@ Git was created by Linus Torvalds : https://github.com/torvalds <br />
 Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
 Lars Schneider of GitHub : https://github.com/larsxschneider <br />
 Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
+Nicholas Cerminara : https://twitter.com/gazelleeatslion, https://github.com/whatnickcodes <br />
 
 <a name="github"></a>
 ## 10. GitHub notes.
