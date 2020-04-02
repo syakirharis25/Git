@@ -142,6 +142,7 @@ $ git status
 ## 9. Git developers.
 Git was created by Linus Torvalds : https://github.com/torvalds <br />
 Chris Wanstrath, the founder of GitHub : https://github.com/defunkt <br />
+Kelvin Yap : https://twitter.com/kelvinyap <br />
 Lars Schneider of GitHub : https://github.com/larsxschneider <br />
 Nat Friedman, Chief Executive Officer (CEO) of GitHub : https://github.com/nat <br />
 Nicholas Cerminara : https://twitter.com/gazelleeatslion, https://github.com/whatnickcodes <br />
