@@ -37,10 +37,13 @@ Stack Overflow questions and answers website : https://stackoverflow.com <br />
 **_Git by GitHub_** <br />
 GitHub official status on twitter : https://twitter.com/githubstatus <br />
 
-**_Git documentation_** <br />
+**_Git documentation by GitHub_** <br />
 Configuring Git Large File Storage by GitHub : https://help.github.com/en/github/managing-large-files/configuring-git-large-file-storage <br />
 REST API v3 by GitHub : https://developer.github.com/v3/ <br />
 Changing a commit message by GitHub : https://help.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message <br />
+
+**_Git documentation by Atlassian_** <br />
+Git Merge by Atlassian : https://www.atlassian.com/git/tutorials/using-branches/git-merge <br />
 
 **_Git questions and answers by Stack Overflow_** <br />
 Git refusing to merge unrelated histories on rebase by Stack Overflow : https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase <br />
