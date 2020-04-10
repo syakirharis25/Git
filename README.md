@@ -31,6 +31,9 @@ GitHub Support official website : https://support.github.com <br />
 Git Large File Storage (LFS) : https://git-lfs.github.com <br />
 Git for Windows : https://gitforwindows.org <br />
 
+**_Git related projects_** <br />
+BFG Repo-Cleaner : https://rtyley.github.io/bfg-repo-cleaner/ <br /> 
+
 **_Git questions and answers_** <br />
 Stack Overflow questions and answers website : https://stackoverflow.com <br />
 
