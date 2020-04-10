@@ -66,6 +66,7 @@ fallocate - preallocate or deallocate space to a file : http://man7.org/linux/ma
 Changing a remote's URL by GitHub : https://help.github.com/en/github/using-git/changing-a-remotes-url <br />
 How to delete multiples files in Github by GitHub Community Forum : https://github.community/t5/How-to-use-Git-and-GitHub/How-to-delete-multiples-files-in-Github/td-p/4623 <br />
 How to Push an Existing Project to GitHub by Nicholas Cerminara : https://scotch.io/tutorials/how-to-push-an-existing-project-to-github <br />
+Are there any good workarounds to the GitHub 100MB file size limit for text files? by Stack Overflow : https://stackoverflow.com/questions/34723759/are-there-any-good-workarounds-to-the-github-100mb-file-size-limit-for-text-file <br />
 
 **_Git projects_** <br />
 VFS for Git : https://github.com/microsoft/VFSForGit<br />
