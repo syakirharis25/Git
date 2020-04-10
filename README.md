@@ -83,6 +83,10 @@ To install git-lfs on Git Bash, simply do this command.
 ```
 $ git lfs install
 ```
+
+Further reference : https://github.com/rtyley/bfg-repo-cleaner/releases/tag/v1.12.5 <br />
+Git LFS related project : https://rtyley.github.io/bfg-repo-cleaner/ <br />
+
 <a name="introduction"></a>
 ## 4. Using git command in Command Prompt.
 To use code command in Command Prompt, you need to add `C:\Program Files\Git\bin\` and `C:\Program Files\Git\cmd\` into the windows environment PATH, follow this instructions. On the right hand side of **[ ⊞ ]**, type `edit environment` and then **[ Mouse Left Click ]** the shown text `edit environment variables for your account`, **Environment Variables** menu will appear, press **[ P ]**, make sure the `Path` is highlighted on the screen, then press **[ Tab ]**, **[ E ]**,**[ Tab ]**, **[ N ]**, and then type `C:\Program Files\Git\bin\`, then press **[ Enter ]**,**[ Tab ]**, **[ N ]**, **[ Enter ]**,and then type `C:\Program Files\Git\cmd\` **[ Enter ]**, **[ Enter ]**, **[ Enter ]**,**[ Tab ]**,**[ Tab ]**,**[ Tab ]**,**[ Enter ]**.
