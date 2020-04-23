@@ -58,6 +58,7 @@ Git unable to resolve references when pushing by Stack Overflow : https://stacko
 How to fix: error: '<filename>' does not have a commit checked out fatal: adding files failed when inputting “git add .” in command prompt by Stack Overflow : https://stackoverflow.com/questions/56873278/how-to-fix-error-filename-does-not-have-a-commit-checked-out-fatal-adding <br />
 Git : Merging Issues with Git by Stack Overflow : https://stackoverflow.com/questions/11527069/git-merging-issues-with-git/22990740<br />
 You have not concluded your merge (MERGE_HEAD exists) by Stack Overflow : https://stackoverflow.com/questions/11646107/you-have-not-concluded-your-merge-merge-head-exists <br />
+How to make Git “forget” about a file that was tracked but is now in .gitignore? by Stack Overflow : https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore <br />
 
 **_Git related articles_** <br />
 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories : https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/ <br />
